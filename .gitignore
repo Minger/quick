@@ -1,0 +1,15 @@
+*.pyc
+*.swo
+.DS_Store
+*~
+.*svn-commit.*
+.svn
+.svnignore
+.idea
+*.iml
+*.ipr
+*.iws
+*.local
+*.bak
+
+
