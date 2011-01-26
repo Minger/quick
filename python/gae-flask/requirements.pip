@@ -1,0 +1,33 @@
+
+# everything pip installs to the virtualenv is for local use while developing
+# dependencies required in deployment are in the project dir 
+
+# a better REPL
+ipython
+
+# moved to bin/install easy_install until http://bitbucket.org/ianb/pip/issue/40 resolved 
+#  egenix-mx-base
+
+# nose testing framework
+# nose>=1.0.0
+-e hg+https://python-nose.googlecode.com/hg/#egg=nose
+-e svn+http://nose-gae.googlecode.com/svn/trunk/#egg=nosegae
+
+# coverage
+# figleaf for code coverage
+-e git+https://github.com/ctb/figleaf.git#egg=figleaf
+
+# pinocchio for spec style tests
+# -e git+https://github.com/infrared/pinocchio.git#egg=pinocchio
+
+# qc for quickcheck style tests
+# -e git+https://github.com/dbravender/qc.git#egg=qc
+
+# autonose runs tests automatically on filesystem changes
+# -e git+https://github.com/gfxmonk/autonose.git#egg=autonose
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+/usr/local/google_appengine
+/usr/local/google_appengine/lib/antlr3
+/usr/local/google_appengine/lib/cacerts
+/usr/local/google_appengine/lib/django
+/usr/local/google_appengine/lib/fancy_urllib
+/usr/local/google_appengine/lib/ipaddr
+/usr/local/google_appengine/lib/webob
+/usr/local/google_appengine/lib/yaml/lib
