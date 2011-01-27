@@ -26,6 +26,7 @@ virtualenv --no-site-packages --python=python2.5 $ENV_DIR
 echo installing PIL for the GAE SDK imaging API
 $ENV_DIR/bin/easy_install pil
 
+. /usr/local/bin/virtualenvwrapper.sh
 workon $PROJECT
 
 pip install ipython
