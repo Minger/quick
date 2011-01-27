@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo this will install python pre-requisites: distribute, pip, virtualenv, virtualenv_wrappers
+echo "this will install python pre-requisites: distribute, pip, virtualenv, virtualenv_wrappers"
 read -p "press any key to continue"
 
 
@@ -27,7 +27,9 @@ echo . /usr/local/bin/virtualenvwrapper.sh >> ~/.bash_profile
 . ~/.bash_profile
 
 echo the next line should say WORKON_HOME = ~/.virtualenvs or equivalent 
-echo check: WORKON_HOME = $WORKON_HOME
+echo check: WORKON_HOME = $WORKON_HOME    
+
+
 
 
 
