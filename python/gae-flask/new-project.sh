@@ -14,7 +14,7 @@ ENV_DIR=$WORKON_HOME/$PROJECT
 echo workon project: $PROJECT
 echo gae-appid: $APPID
 echo project install dir: $PRJ_DIR
-echo ""
+echo virtualenv dir: $ENV_DIR
 
 echo "creating virtualenv" 
 
@@ -23,11 +23,12 @@ virtualenv --no-site-packages --python=python2.5 $ENV_DIR
 
 # if no virtualenvwrapper then mkvirtualenv --no-site-packages --distribute $PROJECT
 
-echo installing PIL for the GAE SDK imaging API
-$ENV_DIR/bin/easy_install pil
-
 . /usr/local/bin/virtualenvwrapper.sh
 workon $PROJECT
+
+echo installing PIL for the GAE SDK imaging API
+easy_install pil
+# pip install pil
 
 pip install ipython
 
