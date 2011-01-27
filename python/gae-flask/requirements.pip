@@ -10,12 +10,12 @@ ipython
 
 # nose testing framework
 # nose>=1.0.0
--e hg+https://python-nose.googlecode.com/hg/#egg=nose
--e svn+http://nose-gae.googlecode.com/svn/trunk/#egg=nosegae
+# -e hg+https://python-nose.googlecode.com/hg/#egg=nose
+# -e svn+http://nose-gae.googlecode.com/svn/trunk/#egg=nosegae
 
 # coverage
 # figleaf for code coverage
--e git+https://github.com/ctb/figleaf.git#egg=figleaf
+# -e git+https://github.com/ctb/figleaf.git#egg=figleaf
 
 # pinocchio for spec style tests
 # -e git+https://github.com/infrared/pinocchio.git#egg=pinocchio
